@@ -1,10 +1,17 @@
 body{
+    padding: 2%;
+}
+#box{
     font-family: 'Open Sans', sans-serif;
     padding: 0 2% 1% 2%;
-
+    background-color: white;
 }
 
 @media only screen and (max-width: 767px){ /* for mobile*/
+    body{
+        background: seagreen;
+    }
+
     p{
         font-size: 1.1em;
     }
@@ -76,6 +83,10 @@ body{
 }
 
 @media only screen and (min-width: 768px){ /* for tablet*/
+    body{
+        background: steelblue;
+    }
+
     p{
         font-size: 1.1em;
     }
@@ -150,6 +161,10 @@ body{
 }
 
 @media only screen and (min-width: 992px){ /* for desktop*/
+    body{
+        background: cadetblue;
+    }
+    
     p{
         font-size: 1.2em;
     }
